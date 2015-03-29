@@ -26,7 +26,7 @@ def merge_files(ngram_directory, output_file):
         for file_name in os.listdir(ngram_directory):
             if len(file_name) > 11 and file_name[:11] == "googlebooks":
                 file_path = os.path.join(ngram_directory, file_name)
-                print("Processing gzipped file: {0}".format(file_path))
+                print "Processing gzipped file: {0}".format(file_path)
                 with gzip.open(file_path, "rb") as gzipped_file:
                     # Keep track of which n-gram we're in and accumulate counts.
                     current_ngram = ""
