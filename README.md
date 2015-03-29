@@ -1,6 +1,6 @@
 # GoogleNGram downloader
-## (Python 2.7 + Mechanize)
-### Karl Stratos (stratos@cs.columbia.edu)
+## Requirements: Python 2.7 + Mechanize
+## Author: Karl Stratos (stratos@cs.columbia.edu)
 This is a set of scripts that help download Google NGram files from the web.
 
 1. Install the mechanize package. I used the command:
