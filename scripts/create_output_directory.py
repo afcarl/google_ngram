@@ -2,10 +2,6 @@
 """
 This module is used to create an output directory for word representations. The
 directory will contain statistics required for computing word representations.
-
-Argument 1: [unigram file]
-Argument 2: [n-gram file]
-Argument 3: [output directory]
 """
 import argparse
 from collections import Counter
